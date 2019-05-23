@@ -1,0 +1,18 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "no-console": false,
+        "semicolon": [true, "never"],
+        "no-unused-vars": ["warn"],
+        "no-multi-spaces": false,
+        "ter-indent": [ true, 4],
+        "indent": [true, "spaces", 4]
+    },
+    "rulesDirectory": [
+        "node_modules/tslint-eslint-rules/dist/rules"
+    ]
+}

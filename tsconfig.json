@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "commonjs",
+        "target": "es5",
+        "types": ["node"],
+        "lib": ["es5", "es6"],
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "awesomeTypescriptLoaderOptions": {
+        "reportFiles": [
+            "./src/**/*"
+        ]
+    },
+    "plugins": [
+      { "name": "tslint-language-service"}
+    ]
+}

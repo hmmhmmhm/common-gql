@@ -1,0 +1,29 @@
+{
+  "name": "common-gql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "generate": "graphql-codegen",
+    "start": "ts-node src/Backend.ts",
+    "lint": "tslint -c tslint.json 'src/**/*.ts' --fix --force"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "See LICENSE.md File",
+  "dependencies": {
+    "apollo-boost": "^0.3.1",
+    "apollo-cache-inmemory": "^1.6.0",
+    "apollo-link-schema": "^1.2.2",
+    "graphql": "^14.3.0",
+    "graphql-tools": "^4.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "ts-node": "^8.0.3",
+    "tslint": "^5.14.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.3.4000"
+  }
+}
