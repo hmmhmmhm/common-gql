@@ -1,12 +1,11 @@
 {
   "name": "common-gql",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "generate": "graphql-codegen",
-    "start": "ts-node src/Backend.ts",
+    "test": "tsc && common-gql-tester",
     "lint": "tslint -c tslint.json 'src/**/*.ts' --fix --force"
   },
   "keywords": [],
