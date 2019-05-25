@@ -44,7 +44,7 @@ npm install ./<path>  --save
 
 ### Test
 
-> An independent test module exists that can test the GraphQL structure being implemented through the Apollo Playground through Common-gql.
+> An independent test module exists that can test the GraphQL structure being implemented through the Apollo Playground through common-gql-tester [[Link]](https://github.com/hmmhmmhm/common-gql-tester).
 
 ```bash
 npm install --global common-gql-tester
