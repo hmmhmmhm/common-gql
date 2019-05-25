@@ -159,7 +159,7 @@ By referring to these individually created gqlConnector, you can isolate the Exp
 To develop the LocalGQL functionality, we used the mocking function of the apolo client. Originally, this function was implemented to test resolver with client only, but by passing resolver to call by reference only, it was fully utilized for local query purposes. However, when using this, resolvers was not normally merged with typeDefs in the following structures described as the default example in the Apollo document.
 
 ```javascript
-import {ApolloClient} from 'apollo-boost'
+import { ApolloClient } from 'apollo-boost'
 import { InMemoryCache } from 'apollo-cache-inmemory'
 import { SchemaLink } from 'apollo-link-schema'
 import { makeExecutableSchema } from 'graphql-tools'
