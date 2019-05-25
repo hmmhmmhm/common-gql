@@ -6,7 +6,7 @@
         "module": "commonjs",
         "target": "es5",
         "types": ["node"],
-        "lib": ["es5", "es6"],
+        "lib": ["es5", "es6", "dom"],
         "moduleResolution": "node",
         "forceConsistentCasingInFileNames": true,
         "noImplicitReturns": true,
