@@ -7,14 +7,14 @@ function field(callback){
 
 export default {
     Query: ()=> ({
-        some: field((parent, { /* argument */ }, { /*context */} )=>{
-            //
+        test: field((parent, { /* argument */ }, { /*context */} )=>{
+            
         })
     }),
 
     Mutation: ()=>({
-        some: field((parent, { /* argument */ }, { /*context */} )=>{
-            //
+        test: field((parent, { /* argument */ }, { /*context */} )=>{
+            
         })
     })
 }
